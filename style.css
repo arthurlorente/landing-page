@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-menu {
+    background-color:#1F2937;
+    flex-direction: row;
+}
+
+li {
+    float: left;
+}
+
+.top-body {
+    background-color: #1F2937;
+}
+
+.mid-body-1 {
+    background-color: white;
+}
+
+.mid-body-2 {
+    background-color: #E5E7EB;
+}
+
+.bottom-body {
+    background-color: white;
+}
+
+.footer-info {
+    background-color:#1F2937;
+}
