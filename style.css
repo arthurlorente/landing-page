@@ -1,19 +1,38 @@
-body {
+ body {
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto';
 }
 
 .top-menu {
     background-color:#1F2937;
+    display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
 }
 
 li {
+    display: flex;
+    flex-direction: row;
     float: left;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 6px;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: normal;
 }
 
 .top-body {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .mid-body-1 {
