@@ -2,13 +2,15 @@
     display: flex;
     flex-direction: column;
     font-family: 'Roboto';
+    justify-content: center;
+    width: 50%;
 }
 
 .top-menu {
     background-color:#1F2937;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bolder;
@@ -37,10 +39,19 @@ li {
     padding-bottom: 40px;
 }
 
+.left-block p {
+        margin-block-start: 0;
+        margin-block-end: 0.2em;
+        margin-inline-end: 0;
+        margin-inline-start: 0;
+}
+
 .left-block {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    .width: 100%;
+    padding-right: 20px;
 }
 
 .hero-text {
@@ -56,6 +67,7 @@ li {
     flex-wrap: wrap;
     font-size: 18px;
     color: #E5E7EB;
+    padding-bottom:5px;
 }
 
 
@@ -77,6 +89,8 @@ li {
     align-items: center;
     background-color: #6d747d;
     color: #E5E7EB;
+    width: 100%;
+    padding-left: 20px;
 }
 
 .mid-body-1 {
