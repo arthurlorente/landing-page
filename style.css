@@ -12,7 +12,8 @@
 
 .background-mid-1 {
     background-color: white;
-    width: 100%
+    width: 100%;
+    padding-bottom: 60px;
 }
 
 .top-menu {
@@ -166,13 +167,24 @@ li {
 .background-mid-2 {
     background-color: #E5E7EB;
     width: 100%;
+    justify-content: center;
 }
 
 .mid-body-2 {
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 100;
+    width: 900px;
+    text-align: center;
+}
+
+.mid-body-2-author {
+    justify-content: center;
+    width: 900px;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .bottom-body {
