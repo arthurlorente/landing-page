@@ -131,20 +131,36 @@ li {
 .squares-section {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .square-container {
     display: flex;
     flex-direction: column;
+    width:225px;
+    margin:5px;
+    justify-content: center;
+    align-items: center;
 }
 
 .square {
-    border: 5px;
+    border: 3px solid;
     border-radius: 8px;
-    width: 40px;
-    height: 40px;
+    width: 120px;
+    height: 120px;
     border-color:#3882f6;
     background-color: white;
+}
+
+.squaresub {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    width:100px;
+    color: #1F2937;
+    font-size: 11px;
 }
 
 
